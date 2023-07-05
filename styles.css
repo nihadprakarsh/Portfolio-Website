@@ -389,3 +389,27 @@ p {
   margin: 1;
 }
 
+
+/* Add this CSS to style the toggle button */
+.toggle-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #010101;
+}
+
+.toggle-btn i {
+  margin-right: 5px;
+}
+
+.toggle-btn:hover {
+  opacity: 0.8;
+}
+
+/* Add this CSS to apply the dark mode styles */
+.dark-mode {
+  /* Define styles for dark mode */
+  background-color: #333;
+  color: #fff;
+}

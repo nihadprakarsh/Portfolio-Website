@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
+  <style>
+  body.dark-mode {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+
+  
+</style>
+
+<script>
+  function toggleDarkMode() {
+    const body = document.querySelector('body');
+    body.classList.toggle('dark-mode');
+  }
+</script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,10 +38,17 @@
 <body>
   <!-- NAVBAR -->
   <nav>
+   
     <div class="left">
       <a href="/">Nihad Prakarsh</a>
     </div>
 
+
+     <div class="toggle-btn" onclick="toggleDarkMode()">
+    <i class="fa-solid fa-toggle-on"></i>
+    <span>Dark Mode</span>
+  </div>
+    
     <div class="right">
       <a href="https://github.com/nihadprakarsh" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-github"></i>
