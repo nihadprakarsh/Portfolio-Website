@@ -370,6 +370,7 @@ button:hover {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
+  color: #151515;
 }
 
 h3, h4 {
@@ -441,4 +442,6 @@ p {
 .dark-mode.timeline-content {
   color: #fff;
 }
+
+
 
