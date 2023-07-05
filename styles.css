@@ -396,7 +396,7 @@ p {
   align-items: center;
   margin-left: 10px;
   cursor: pointer;
-  color: #010101;
+  color: #151515;
 }
 
 .toggle-btn i {
@@ -410,6 +410,35 @@ p {
 /* Add this CSS to apply the dark mode styles */
 .dark-mode {
   /* Define styles for dark mode */
-  background-color: #333;
+  background-color: #151515;
   color: #fff;
 }
+
+
+.dark-mode .toggle-btn {
+  color: #fff;
+}
+
+
+.toggle-btn .mode-text {
+  margin-left: 5px;
+}
+
+.dark-mode .toggle-btn .mode-text {
+  display: none;
+}
+
+.dark-mode nav .left a,
+.dark-mode nav .right a,
+.dark-mode .hero-section .text a,
+.dark-mode .skills-section .cells .cell span,
+.dark-mode .testimony-section .group .person-details p,
+.dark-mode .contact-section .group .text,
+.dark-mode .contact-section .group form input,
+.dark-mode .contact-section .group form textarea,
+.dark-mode .timeline-date,
+.dark-mode .toggle-btn 
+.dark-mode.timeline-content {
+  color: #fff;
+}
+
